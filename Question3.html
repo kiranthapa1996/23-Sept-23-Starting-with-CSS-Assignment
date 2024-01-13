@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .firstname{
+      background-color:rgb(207, 37, 65);
+    }
+    .lastname{
+      background-color: blue;
+    }
+    .email{
+      background-color: aquamarine;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="firstname">First Name:
+      <input type="text" name="firstname" class="firstname" placeholder="Kiran" required min-length:4 and max-length:20/>
+    </label>
+    <br>
+    <label for="lastname">Last Name:
+      <input type="text" name="lastname" class="lastname" placeholder="Thapa" required min-length:4 and max-length:20/>
+    </label>
+    <br>
+    <label for="Email">Email:
+      <input type="email" name="Email" class="email" placeholder="surveykiran64@gmail.com" required/>
+    </label>
+    <br>
+    <label for="Password">Password:
+      <input type="password" name="Password" placeholder="*************" required min-length:4 and max-length:20/>
+    </label>
+    <br>
+    <label for="ConfirmPassword">Confirm Password:
+      <input type="password" name="ConfirmPassword" placeholder="*************" required min-length:4 and max-length:20/>
+    </label>
+    <br>
+    <label for="Age">Age:
+      <input type="number" name="Age" placeholder="28" required min="1" max="150"/>
+    </label>
+    <br>
+    <label for="Gender">Gender:
+      <input type="checkbox" name="Male"/>
+      <label for="male">Male</label>
+      <input type="checkbox" name="Female"/>
+      <label for="female">Female</label>
+      <input type="checkbox" name="others"/>
+      <label for="others">Others</label>
+    </label>
+    <br>
+    <label for="terms">terms:
+      <input type="checkbox">I agree to terms and conditions
+    </label>
+    <br>
+    <button>Register</button>
+  </form>
+</body>
+</html>

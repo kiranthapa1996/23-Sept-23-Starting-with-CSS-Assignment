@@ -1,0 +1,9 @@
+.External{
+  color:blueviolet;
+}
+.External_Internal{
+  color:aqua;
+}
+.Inline_Internal_External{
+  color:rgb(84, 84, 177);
+}
